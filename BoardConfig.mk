@@ -81,6 +81,9 @@ TARGET_USES_ION := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
+# Encryption
+TARGET_HW_DISK_ENCRYPTION := true
+
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 BOARD_HAS_QCA_FM_SOC := cherokee
