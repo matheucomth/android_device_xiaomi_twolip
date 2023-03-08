@@ -121,7 +121,7 @@ on boot
     setprop persist.camera.gyro.disable 0
 
     # Use SDM636 powerhint config
-    setprop vendor.powerhal.config "powerhint_636.json"
+    setprop vendor.powerhal.config "powerhint.json"
 
     start rmt_storage
     start rfs_access
